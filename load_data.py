@@ -17,7 +17,7 @@ st.subheader("📊 Overall Performance Metrics")
 st.dataframe(data)
 
 # --- 2. BAR CHARTS FOR EACH METRIC ---
-st.subheader("📈 Metric Comparisons")
+st.subheader("📈 Metric Comparison")
 
 metric_columns = ["Accuracy", "Precision", "Recall", "F1 Score"]
 for metric in metric_columns:
